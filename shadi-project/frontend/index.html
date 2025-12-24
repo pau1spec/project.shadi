@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Countries</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Страны мира</h1>
+
+  <input id="search" placeholder="Поиск страны">
+  
+  <select id="region">
+    <option value="">Все регионы</option>
+    <option>Africa</option>
+    <option>Americas</option>
+    <option>Asia</option>
+    <option>Europe</option>
+    <option>Oceania</option>
+  </select>
+
+  <button id="viewToggle">Сетка</button>
+  <select id="themeSelect">
+    <option value="system">Системная</option>
+    <option value="light">Светлая</option>
+    <option value="dark">Тёмная</option>
+  </select>
+</header>
+
+<main id="countries" class="grid"></main>
+
+<script src="theme.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
